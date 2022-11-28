@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>LogicSquare assignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center"  style="background-color: blue;">California cake Cafe</h1>
+    <!-- Table Data -->
+    <div class="container">
+        <hr>
+        <input type="text" id="myInput" onkeyup='tableSearch()' placeholder="serach-Name">
+
+        <table class="table" id="myTable" data-filter-control="true" data-show-search-clear-button="true">
+        <thead>
+            <tr>
+                <th>Sl.NO</th>
+
+                <th>Address</th>
+                <th>Postal</th>
+                <th>Lat</th>
+                <th>Long</th>
+
+            </tr>
+        </thead>
+        <tbody  id="table-data"> </tbody>
+        
+        </table>
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+
+
+</html>
